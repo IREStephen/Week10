@@ -8,9 +8,9 @@ public class Person {
     private String phoneNumber;
 
     public Person() {
-        this.name = "Stephen";
-        this.address = "email";
-        this.phoneNumber = "123";
+        this.name = "";
+        this.address = "";
+        this.phoneNumber = "";
     }
 
     public Person(String name, String address, String phoneNumber) {
