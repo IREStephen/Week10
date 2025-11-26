@@ -8,9 +8,9 @@ public class Person {
     private String phoneNumber;
 
     public Person() {
-        this.name = "";
-        this.address = "";
-        this.phoneNumber = "";
+        this.name = "Stephen";
+        this.address = "email";
+        this.phoneNumber = "123";
     }
 
     public Person(String name, String address, String phoneNumber) {
@@ -36,6 +36,7 @@ public class Person {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
     @Override
     public String toString() {
         return "Person{" +
